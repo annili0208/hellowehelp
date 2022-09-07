@@ -1,1 +1,101 @@
-# hellowehelp
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <title>application</title>
+    <link rel="stylesheet" type="text/css" href="first.css">
+</head>
+<body>
+    <h2 style="text-align:center" onmouseover="change5();" id="ha">Hello WE HELP</h2>
+    <hr/>
+    <ul>
+        <li class="li">兩百字內個人簡介</li>
+        <span class="sp">我</span><span>的名字：安妮，姓：李。都說我的父母幫我取名時連英文名都想好了，
+                大家也很常問我，爸爸是不是李登輝，不是。我是花蓮人，大學時在台南的南台科技大學念外語系，
+                後來一畢業就在台北從事保險業到現在，目前住在花蓮。除了工作之外我大部分的時間安排不是運動就是看書，
+                我是一位愛書成癡的人，我喜歡阿西莫夫-永恆的終結，也推薦蓋茲推薦的事實(在台灣書名：真確),
+                比起社交我更喜歡一個人。
+            </span>
+        <li class="li">為了成為軟體工程師做過什麼努力？若有具體專案作品請分享給我們</li>
+            <span class="sp">自</span><span>學Python (微信讀書-Python編程從入門到實踐、
+                Python數據結構與算法分析)台灣的名稱不是很清楚。看彭彭老師的影片。我沒有任何的專案作品。
+            </span>
+        <li class="li">如果參與這個計畫，會怎麼安排學習時間？</li>
+            <ul>
+                <li>7:00起床</li>
+                <li>8:00-11:00學習</li>
+                <li>11:00-12:00睡覺</li>
+                <li>12:00-13:00吃飯</li>
+                <li>13:00-16:00學習 </li>
+                <li>16:00睡覺或其他</li>
+                <li>17:30-19:00運動</li>
+                <li>19:00-21:00空</li>
+                <li>21:00繼續學習直到想睡</li>
+                以上的時間是我目前的生活方式。  
+            </ul>
+        <li class="li">是否有想要加入的軟體公司？為什麼想加入該公司？</li>
+            <span class="sp">微</span><span>軟，朋友在那工作。其實我沒有想法，我想能夠從事遠距的工作，或是能夠出國工作。
+            </span> 
+        <li class="li">請描述一件你曾經碰到最困難的事情，如何克服？</li>
+            <span class="sp">業</span><span>務是我做過最久的工作,從事8年以上。
+                起初在尋找客戶時沒有什麼人脈，我試過路邊寫問卷，郵局、捷運站崗，也拿過電話簿亂槍打鳥，最後都失敗告終。
+                後來我做店家拜訪，久了就看得出來櫃檯的是員工還是老闆，有錢還是沒錢。
+                我花了很長時間自己讀稅法還有增加自己的財商知識、總體經濟、原物料還有戰爭史，希望能培養自己的世界觀。
+            </span>
+        <li class="li">關於這份申請網頁，請分享一個你開發時的技術心得</li>
+            <span class="sp">看</span><span>了老師的相關影片還有提供的資料，我先在腦海裡想像畫面，
+                我也看了其他我覺得很乾淨的網頁畫面做參考，例如:Medium的排版。也許我可以放一些超連結讓人能夠更認識我。
+                也可以用選擇器讓我的code乾淨簡單點。
+            </span>
+        <li class="li">其他想要對我們說的事情？</li>
+            <span class="sp">我</span><span>目前在中國人壽就職，在招募時，你們有很清楚的表示希望申請者能全心投入，
+                對目前仍在就業的人可能你們會有疑慮，這點我很清楚，我想好我沒有要繼續這份工作，我對業務的生活方式感到到了極度厭倦，
+                所以才會從台北搬回花蓮，但是這個狀況並沒有改善還持續惡化。也是因為我希望自己能夠說到做到，我想了很多天才送出這申請表，
+                希望我能有這個機會從新開始。
+            </span>
+    </ul>
+    <br/>
+
+   
+    <div>
+        <div style="display:flex;justify-content:center"> 
+            <div onmouseover="change();" onmouseout="change3();"><img src="email.png" width="40" hight="40"></div>
+            <div onmouseover="change1();" onmouseout="change3();"><img src="mobile.png" width="40" hight="40"></div>
+            <div onmouseover="change2();" onmouseout="change3();"><img src="line.png" width="40" hight="40"></div>
+            <div><a href="https://www.facebook.com/profile.php?id=100000289416775">
+                <img src="facebook.png" width="40" hight="40"/></a>
+            </div>
+        </div>
+        <hr/>
+        <script>
+            function change(){
+                let coco=document.querySelector("#haha")
+                coco.innerHTML="498c0156@stust.edu.tw"
+            }
+            function change1(){
+                let coc=document.querySelector("#haha")
+                coc.innerHTML="+886919169210"
+            }
+            function change2(){
+                let co=document.querySelector("#haha")
+                co.innerHTML="Line ID : ennie1991"
+            }
+            function change3(){
+                let c=document.querySelector("#haha")
+                c.innerHTML="Hello We Help"
+            }
+            function change5(){
+                let c5=document.querySelector("#ha")
+                c5.innerHTML="Hello 彭彭"
+            }
+            
+
+        </script>
+
+        <h3 style="text-align:center" id="haha" >Hello We Help</h3>
+            
+    <br/>
+
+
+</html>
